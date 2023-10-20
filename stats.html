@@ -65,13 +65,107 @@
     </div>
     <!------------------------------------ End Views------------------------------------- -->
 
-    <footer>
 
-    </footer>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 20px;
 
-    <script src="fakedata.js"></script>
-    <script src="events.js"></script>
-    <script src="stats.js"></script>
-</body>
+        }
+
+        h1 {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgb(105, 102, 102);
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 2px solid rgb(255, 0, 162);
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+        }
+
+        th {
+            background-color: rgb(105, 102, 102);
+            color: white;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- //Tabla de estadísticas de eventos -->
+        <table>
+            <thead>
+                <h1>Event Statistics</h1>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Events with the highest percentage of attendance</td>
+                    <td>Events with the lowest percentage of attendance</td>
+                    <td>Event with larger capacity</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th colspan="3">Upcoming Events Statistics by Category</th>
+                </tr>
+                <tr>
+                    <th>Categories</th>
+                    <th>Revenues</th>
+                    <th>Percentage of Attendance</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th colspan="3">Past Events Statistics by Category</th>
+                </tr>
+                <tr>
+                    <th>Categories</th>
+                    <th>Revenues</th>
+                    <th>Percentage of Attendance</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+
+        </footer>
+
+        <script src="fakedata.js"></script>
+        <script src="events.js"></script>
+        <script src="stats.js"></script>
+    </body>
 
 </html>

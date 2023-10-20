@@ -20,6 +20,8 @@ categories.forEach(category => {
     checkboxInput.setAttribute('type', 'checkbox');
     checkboxInput.setAttribute('id', category.toLowerCase()); // Usamos el nombre de la categoría en minúsculas como ID
 
+    // Agregar una regla de estilo para el color del texto
+    checkboxLabel.style.color = 'white';
     checkboxLabel.appendChild(checkboxInput);
     checkboxLabel.appendChild(document.createTextNode(category));
 
@@ -45,6 +47,38 @@ searchInput.setAttribute('placeholder', 'Buscar eventos');
 // Agregar el campo de búsqueda al div
 searchDiv.appendChild(searchInput);
 searchContainer.appendChild(searchDiv);
+
+
+
+
+
+
+
+// Agregar el div de búsqueda al contenedor
+searchContainer.appendChild(searchDiv);
+
+
+// Obtener el campo de búsqueda
+
+
+// Agregar un controlador de eventos para la tecla "Enter"
+// searchInput.addEventListener('keyup', function (event) {
+//     console.log(searchInput.addEventListener);
+//   if (event.key === 'Enter') {
+//     // Obtener el valor de búsqueda
+//     const query = searchInput.value;
+//}
+ //});
+
+
+    // Redirigir a la página de resultados con la consulta de búsqueda
+//     window.location.href = `results.html?search=${query}`;
+//   }
+// });
+
+
+
+
 
 //----------------------------------- CARDS----------------------------------------------
 

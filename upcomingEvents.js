@@ -20,6 +20,7 @@ categories.forEach(category => {
     checkboxInput.setAttribute('type', 'checkbox');
     checkboxInput.setAttribute('id', category.toLowerCase()); // Usamos el nombre de la categoría en minúsculas como ID
 
+    checkboxLabel.style.color = 'white';
     checkboxLabel.appendChild(checkboxInput);
     checkboxLabel.appendChild(document.createTextNode(category));
 
