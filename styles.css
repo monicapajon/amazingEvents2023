@@ -13,10 +13,13 @@ body {
 }
 
 /* Estilos para la lista de navegación en el encabezado */
+
+
 .navbar-menu ul.holder {
   list-style: none;
   display: flex;
   align-items: center;
+
 }
 
 .navbar-menu ul.holder li {
@@ -71,12 +74,3 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
