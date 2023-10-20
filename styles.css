@@ -1,0 +1,82 @@
+/* Reglas generales */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Estilos para el fondo y el diseño general del sitio */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(/imgs/pink-g484d8ed12_1920.jpg);
+}
+
+/* Estilos para la lista de navegación en el encabezado */
+.navbar-menu ul.holder {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu ul.holder li {
+  margin-right: 10px;
+}
+
+.navbar-menu ul.holder a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para el elemento con el id "search" */
+#search {
+  justify-content: space-between;
+}
+
+/* Estilos para el contenedor con la clase "container" */
+.container {
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Estilos para el elemento con la clase "buttons" */
+.buttons {
+  justify-content: flex-end;
+}
+
+/* Estilos para sombras personalizadas */
+.custom-shadow {
+  box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para las tarjetas */
+.card {
+  max-width: calc(25% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el contenedor con el id "cards" */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
