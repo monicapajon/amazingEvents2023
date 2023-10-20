@@ -1,4 +1,4 @@
-var events = [
+let events = [
   {
     _id: 1,
     name: "Collectivities Party",
