@@ -32,6 +32,38 @@ body {
   font-weight: bold;
 }
 
+
+
+/* Estilos para el nuevo elemento <div> en la barra de navegación */
+#view-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#prev-view,
+#next-view {
+  font-size: 1.5rem;
+}
+
+/* Estilos para el botón "Previous" */
+#prev-view {
+  margin-right: 10px;
+}
+
+/* Estilos para el botón "Next" */
+#next-view {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
 /* Estilos para el elemento con el id "search" */
 #search {
   justify-content: space-between;
